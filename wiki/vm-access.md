@@ -17,7 +17,6 @@
   - [Create the non-root user `<user>` (REMOTE)](#create-the-non-root-user-user-remote)
     - [Add the non-root user `<user>` (REMOTE)](#add-the-non-root-user-user-remote)
     - [Set the password for the user `<user>` (REMOTE)](#set-the-password-for-the-user-user-remote)
-    - [Type the password for the user `<user>` (REMOTE)](#type-the-password-for-the-user-user-remote)
     - [Provide other information about the user `<user>` (REMOTE)](#provide-other-information-about-the-user-user-remote)
     - [Add the user `<user>` to the group `sudo` (REMOTE)](#add-the-user-user-to-the-group-sudo-remote)
   - [Set up the `SSH` key authentication for the user `<user>` (REMOTE)](#set-up-the-ssh-key-authentication-for-the-user-user-remote)
@@ -328,23 +327,6 @@ Complete these steps:
    > 🟦 **Note**
    >
    > The shell won't show what you type for security reasons.
-
-#### Type the password for the user `<user>` (REMOTE)
-
-> [!NOTE]
-> Replace the placeholder [`<user>`](./operating-system.md#user-placeholder).
-
-1. When prompted for a password:
-
-   1. Type the password for the user `<user>`.
-
-      See [Set the password for the user `<user>` (REMOTE)](#set-the-password-for-the-user-user-remote).
-
-      > 🟦 **Note**
-      >
-      > The [shell](./shell.md#what-is-a-shell) won't show what you type.
-
-   2. Press `Enter`.
 
 #### Provide other information about the user `<user>` (REMOTE)
 

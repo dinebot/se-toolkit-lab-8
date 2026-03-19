@@ -12,6 +12,7 @@
 - [Shell profile](#shell-profile)
   - [Reload the shell profile](#reload-the-shell-profile)
 - [Shell prompt](#shell-prompt)
+  - [Type the password for the user](#type-the-password-for-the-user)
 - [Shell session](#shell-session)
   - [Exit the shell session](#exit-the-shell-session)
 - [Shell command](#shell-command)
@@ -110,6 +111,24 @@ It typically shows the current [user](./operating-system.md#user), machine name,
 Examples:
 
 - [`SSH` shell prompt](./ssh.md#ssh-shell-prompt)
+
+### Type the password for the user
+
+> [!NOTE]
+> The [shell prompt](#shell-prompt) usually specifies which user
+> you should write the password for.
+
+1. When prompted for a password:
+
+   1. Find the password for the user (e.g., in your password manager).
+
+   2. Type the password for the user.
+
+      > 🟦 **Note**
+      >
+      > The [shell](./shell.md#what-is-a-shell) won't show what you type.
+
+   3. Press `Enter`.
 
 ## Shell session
 
