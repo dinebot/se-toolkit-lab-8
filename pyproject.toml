@@ -130,4 +130,4 @@ pythonpath = ["backend"]
 asyncio_mode = "auto"
 
 [tool.ty.src]
-include = ["backend", "client-telegram-bot"]
+include = ["backend", "client-telegram-bot", "nanobot"]
