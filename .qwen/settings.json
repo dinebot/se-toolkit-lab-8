@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(uv *)",
+      "Bash(grep *)",
+      "Bash(docker compose *)",
+      "Bash(curl *)",
+      "Bash(apt-get *)",
+      "Bash(mkdir *)",
+      "Bash(sleep *)",
+      "Bash(cat *)",
+      "Bash(timeout *)"
+    ]
+  },
+  "$version": 3
+}

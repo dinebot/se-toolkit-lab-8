@@ -1,0 +1,42 @@
+{
+  "providers": {
+    "custom": {
+      "apiKey": "my-secret-qwen-key",
+      "apiBase": "http://localhost:42005/v1"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "coder-model"
+    }
+  },
+  "gateway": {
+    "address": "0.0.0.0",
+    "port": 18790
+  },
+  "channels": {
+    "webchat": {
+      "enabled": true,
+      "allow_from": ["*"]
+    }
+  },
+  "tools": {
+    "mcpServers": {
+      "lms": {
+        "command": "uv",
+        "args": ["run", "-m", "mcp_lms", "http://backend:8000"],
+        "env": {
+          "NANOBOT_LMS_API_KEY": "my-secret-api-key"
+        }
+      },
+      "observability": {
+        "command": "uv",
+        "args": ["run", "-m", "mcp_observability"],
+        "env": {
+          "VICTORIALOGS_URL": "http://victorialogs:9428",
+          "VICTORIATRACES_URL": "http://victoriatraces:10428"
+        }
+      }
+    }
+  }
+}

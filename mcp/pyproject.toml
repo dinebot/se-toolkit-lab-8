@@ -1,7 +1,7 @@
 [project]
 name = "lms-mcp"
 version = "1.0.0"
-description = "MCP server and shared client library for the LMS backend"
+description = "MCP server and shared client library for LMS backend and observability"
 requires-python = ">=3.11"
 dependencies = [
     "httpx>=0.28.0,<1.0.0",
@@ -14,4 +14,4 @@ requires = ["setuptools>=75.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["mcp_lms*"]
+include = ["mcp_lms*", "mcp_observability*"]
