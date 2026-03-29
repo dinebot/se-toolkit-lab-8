@@ -2,6 +2,7 @@
 # task 1
 # task2 
 # task3
+# task4
 [Sync your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) regularly — the lab gets updated.
 
 ## Product brief
